@@ -90,7 +90,7 @@ body {
 
 /*TODO: fix the height; */
 
-.main {
+.main-section {
     position: relative;
     width: 100%;
     height: auto;
@@ -98,7 +98,7 @@ body {
     align-items: center;
 }
 
-.main__text-section {
+.hero-section {
     width: 50%;
     text-align: center;
     display: inline-block;
@@ -106,20 +106,20 @@ body {
 
 }
 
-.text-section__container {
+.hero-section__text-container {
     width: 380px;
     display: block;
     margin: 0 auto;
 }
 
-.main__text-section h1 {
+.hero-section__text-container h1 {
     font-size: 5.3em;
     text-align: left;
     line-height: 75px;
     font-weight: 800;
 }
 
-.main__text-section p {
+.hero-section__text-container p {
     font-size: 1.5em;
     text-align: left;
     margin-top: 25px;
@@ -127,7 +127,7 @@ body {
 
 }
 
-.main__signup-form {
+.signup-form {
     width: 50%;
     text-align: center;
     display: inline-block;
@@ -186,9 +186,6 @@ FORM
 
 }
 
-.signup-form__main input {
-}
-
 button.signup-form__input-submit {
     display: block;
     margin: 0 auto;
@@ -238,8 +235,6 @@ fix base font-size so that em will be 1
  */
 .signup-form__main input::placeholder {
     color: white;
-
-
 }
 
 .signup-form__container footer {
@@ -309,30 +304,30 @@ footer
         font-size: 20px;
     }
 
-    .text-section__container {
+    .hero-section__text-container {
         display: block;
         width: 700px;
     }
 
-    .text-section__container h1{
+    .hero-section__text-container h1 {
 
         line-height: 125px;
     }
 
-    .main {
+    .main-section {
         flex-direction: column;
     }
 
-    .main__signup-form {
+    .signup-form {
         display: block;
     }
 
-    .main__text-section {
+    .hero-section {
         display: block;
         width: 100%
     }
 
-    .main__signup-form {
+    .signup-form {
         display: block;
         width: 100%;
         margin: 0 auto;
